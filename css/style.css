@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+img{
+	max-width: 100%;
+}
+body{
+	font-family: 'Roboto', sans-serif !important;
+	font-size: 16px !important;
+	
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Montserrat', sans-serif !important ;
+	
+}
+
+.header_section{
+	padding-top:25px
+}
+.logo img{}
+.main_menu{
+	text-align:right;
+	margin-top: 25px
+}
+.main_menu ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.main_menu ul li{
+	display: inline-block;
+	margin-right: 20px
+}
+.main_menu ul li a{
+	text-decoration: none;
+	color: #333;
+	font-size: 18px;
+	font-weight: 500;
+	opacity: .8
+}
+.slider_wraper{
+position: relative
+}
+.slider_l{
+	position: absolute;
+	top: 50%;
+	width: 30%;
+	transform: translateY(-50%)
+}
+.slider_l h2{
+	font-size: 42px;
+	font-weight: 700;
+	margin-bottom:35px
+}
+.slider_l p{
+	opacity: .8;
+	color: #333
+}
+.page_btn{
+	background: #333;
+	display: inline-block;
+	border-radius: 4px;
+	margin-top: 20px
+}
+.page_btn a{
+	display:block;
+	text-decoration:none;
+	color:#fff;
+	padding: 10px 30px;
+}
+.page_btn a i{
+	margin-left: 15px;
+}
+
+.slider_right{
+	
+}
+.owl-dots{text-align: center}
+.owl-dots button{}
+.owl-dots .owl-dot span{
+	width: 15px;
+	height: 11px;
+	background: #FFC91C;
+	display: inline-block;
+	margin-right: 10px;
+	border-radius: 10px
+
+}
+
+.owl-dots .active span{
+	width: 30px;
+	text-decoration: none
+}
+.section_heading a{
+	text-decoration: none
+}
+.section_heading a h2{
+
+	color: #333;
+	font-size: 32px;
+	font-weight: 600;
+}
+
+.section_link a{
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: 600;
+	color: #FFC91C
+}
+.section_padding{
+	padding-top: 60px;
+	margin-bottom: 40px
+}
+
+
+.single_product{
+
+	padding: 60px;
+	text-align: center;
+	box-shadow: 0 20px 50px #0000002e;
+}
+
+.single_product h3{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 23px;
+	font-weight: 600
+}
+
+p.dollar{
+	font-size: 30px;
+	font-weight: 800;
+	margin-top: 40px
+}
+.single_product p{
+	color: #333;
+	opacity: .8
+}
+.title h1{
+	font-size: 40px;
+	font-weight: 600;
+}
+.title{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 80px
+	
+}
+.title span{
+	height: 8px;
+	width: 100px;
+	display: inline-block;
+	background: #FFCA1B;
+	text-align: center;
+}
+.cat_sec img{
+	
+}
+.cat_sec{
+
+	padding: 85px;
+	box-shadow: 0 20px 50px #0000002e;
+	margin-bottom: 40px;
+	position: relative
+}
+
+.cat_sec h3{
+	text-align: center;
+	font-weight: 600;
+	margin-top: 30px
+}
+
+.cat_sec_1{
+
+	padding: 85px;
+	box-shadow: 0 20px 50px #0000002e;
+	margin-bottom: 20px;
+	position: relative
+}
+.cat_sec_1 h3{
+	text-align: center;
+	font-weight: 600;
+	margin-top: 30px
+}
+.left_cat{
+	position: relative;
+}
+.cat_sec_1{
+	position: absolute;
+	top: 25%
+}
+
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.main_menu{width: 400px; margin:0 auto; margin-bottom: 70px}
+	.logo img{width: 200px}
+	.logo{width:200px; margin:0 auto;margin-bottom: 20px}
+	
+	.section_heading{text-align: center}
+	.section_link{text-align: center}
+	.single_product{margin-bottom: 30px}
+	.cat_sec_1{position: relative;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+		.main_menu{width: 400px; margin:0 auto; margin-bottom: 70px}
+	.logo img{width: 200px}
+	.logo{width:200px; margin:0 auto;margin-bottom: 20px}
+	
+	.section_heading{text-align: center}
+	.section_link{text-align: center}
+	.single_product{margin-bottom: 30px}
+	.cat_sec_1{position: relative;}
+}
+@media only screen and (max-width: 600px) {
+	.slider_l{display: none;}
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...} 
